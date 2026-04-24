@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "svruptime",
+  "version": "${version}",
+  "name": "svrUptime",
+  "description": "Broadcasts server uptime in Minecraft and real-world time at the start of each in-game day.",
+  "authors": ["LunixiaLIVE"],
+  "contact": {
+    "sources": "https://github.com/LunixiaLIVE/svrUptime_multi"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.lunix.svruptime.fabric.SvrUptimeFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "architectury": "*"
+  }
+}
