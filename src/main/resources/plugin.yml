@@ -1,0 +1,14 @@
+name: SvrUptime
+version: '${version}'
+main: net.lunix.svruptime.SvrUptimePaper
+api-version: '1.21'
+description: Tracks and displays server world uptime
+commands:
+  uptime:
+    description: Show server uptime
+    aliases: [ut]
+    usage: /uptime [query [unit]|help|admin ...]
+permissions:
+  svruptime.admin:
+    description: Access to SvrUptime admin commands
+    default: op
