@@ -6,7 +6,8 @@
   "description": "Broadcasts server uptime in Minecraft and real-world time at the start of each in-game day.",
   "authors": ["LunixiaLIVE"],
   "contact": {
-    "sources": "https://github.com/LunixiaLIVE/svrUptime_multi"
+    "homepage": "https://github.com/LunixiaLIVE/Lunixia-Minecraft-QOL-Mods",
+    "sources": "https://github.com/LunixiaLIVE/svrUptime"
   },
   "license": "MIT",
   "environment": "*",

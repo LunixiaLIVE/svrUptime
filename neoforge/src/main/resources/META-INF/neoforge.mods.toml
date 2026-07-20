@@ -7,6 +7,7 @@ license = "MIT"
     version = "${version}"
     displayName = "svrUptime"
     description = "Broadcasts server uptime in Minecraft and real-world time at the start of each in-game day."
+    displayURL = "https://github.com/LunixiaLIVE/Lunixia-Minecraft-QOL-Mods"
 
 [[dependencies.svruptime]]
     modId = "neoforge"
